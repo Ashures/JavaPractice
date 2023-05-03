@@ -1,12 +1,9 @@
 package net.ashures.main;
 
-import java.util.ArrayList;
-
 public class Practice <T> {
     T item;
-    ArrayList<T> itemList;
-    public Practice(T toPrint) {
-        this.item = toPrint;
+    public Practice(T item) {
+        this.item = item;
     }
 
     public void printItem() {
